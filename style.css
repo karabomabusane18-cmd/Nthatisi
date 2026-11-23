@@ -1,0 +1,222 @@
+
+body{
+font-family: Georgia, "Times New Roman", serif; 
+background-color: cornsilk; 
+color: saddlebrown; 
+line-height: 1.7; 
+transition: background-color 0.4s, color 0.4s; 
+}
+
+h1, h2, h3, h4, h5, .navbar-brand{ 
+font-family: "Trebuchet MS", Arial, sans-serif; 
+}
+
+.section-title{ 
+color: darkolivegreen; 
+border-bottom: 3px solid peru; 
+padding-bottom: 0.4rem; 
+margin-bottom: 1.5rem; 
+display: inline-block; 
+}
+
+
+.site-nav { 
+  background-color: saddlebrown; 
+  border-bottom: 4px solid goldenrod;
+   padding: 0.8rem 0; }
+
+.site-nav .nav-link { 
+  color: wheat; 
+  font-size: 1.15rem;
+   padding: 0.8rem 1.2rem; 
+   border-radius: 6px; 
+   transition: background-color 0.3s, color 0.3s; }
+
+.site-nav .nav-link:hover, .site-nav .nav-link.active { 
+  background-color: darkolivegreen; 
+  color: white; }
+
+
+.navbar-brand { 
+  color: wheat !important; 
+  font-weight: bold; 
+  letter-spacing: 1px; 
+  font-size: 2.4rem; }
+
+
+.btn-brown{
+ background-color: saddlebrown; 
+ color: white; 
+ border: 2px solid saddlebrown; 
+ transition: background-color 0.3s, transform 0.2s; 
+}
+
+.btn-brown:hover{
+ background-color: darkolivegreen; 
+ border-color: darkolivegreen; 
+ color: white; 
+ transform: translateY(-2px); 
+}
+
+.btn-outline-brown{
+background-color: transparent; 
+color: saddlebrown; 
+border: 2px solid saddlebrown; 
+transition: background-color 0.3s, color 0.3s; 
+}
+
+.btn-outline-brown:hover{ 
+background-color: saddlebrown; 
+color: white; 
+}
+
+.hero-banner{
+background-image: url("visitor center.jpg");
+ background-size: cover; 
+ background-position: center;
+ min-height: 560px; 
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+ padding: 2rem 1rem; 
+ border-bottom: 5px solid goldenrod;
+}
+
+.hero-box{
+ background-color: rgba(60, 30, 10, 0.7); 
+ color: white; 
+ border-radius: 12px; 
+ padding: 2rem 2.5rem; 
+ max-width: 700px;
+}
+
+
+.page-hero {
+ background-color: darkolivegreen; 
+ color: white; 
+ padding: 3.5rem 0; 
+ border-bottom: 5px solid goldenrod;
+}
+
+
+.tour-card { 
+  border: 2px solid tan; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  background-color: white; 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.tour-card:hover{ 
+  transform: translateY(-6px); 
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25); }
+
+.tour-card .card-img-top {
+ height: 190px; 
+ object-fit: cover; }
+
+
+.aside-box { 
+  background-color: wheat;
+   border: 3px solid peru; 
+   border-radius: 10px; 
+   padding: 1.5rem; 
+   margin: 1rem 0; }
+
+.faq-item {
+ background-color: white; 
+ border-left: 6px solid darkolivegreen; 
+ border-radius: 8px; padding: 1.2rem 1.4rem; 
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+
+.faq-item h3 { 
+  color: darkolivegreen; }
+
+
+.glance-table th {
+ background-color: darkolivegreen; 
+ color: white; }
+
+.glance-table td { 
+  background-color: white; 
+}
+.about-img {
+ border: 4px solid tan; }
+
+
+.gallery-card { 
+  margin: 0; background-color: white;
+   border: 2px solid tan; 
+  border-radius: 10px; 
+  overflow: hidden; }
+
+.gallery-img { 
+  width: 100%; 
+  height: 220px; 
+  object-fit: cover;
+   cursor: pointer; 
+   transition: transform 0.4s; }
+
+.gallery-img:hover { 
+  transform: scale(1.08); }
+
+.gallery-card figcaption {
+ padding: 0.6rem; 
+ font-size: 0.9rem;
+  background-color: white;
+   position: relative; }
+
+.demo-form { 
+  background-color: white;
+   border: 2px solid tan; 
+   border-radius: 10px; 
+   padding: 1.5rem; }
+
+.form-control:focus, .form-select:focus {
+ border-color: darkolivegreen; 
+ box-shadow: 0 0 0 0.2rem rgba(85, 107, 47, 0.3); }
+
+
+.footer{
+  background-color: saddlebrown;
+  color: wheat;  
+  border-top: 4px solid goldenrod;
+  text-align: center;
+}
+
+
+body.dark { 
+  background-color: black;
+   color: wheat; }
+
+body.dark .tour-card, body.dark .gallery-card, body.dark .gallery-card figcaption, body.dark .demo-form, body.dark .glance-table td, body.dark .modal-content, body.dark .faq-item { background-color: darkslategray; color: wheat; border-color: peru; }
+body.dark .faq-item h3 { 
+  color: khaki; }
+
+body.dark .aside-box {
+ background-color: saddlebrown; 
+ color: white; 
+ border-color: goldenrod; }
+
+body.dark .section-title { 
+  color: khaki; }
+
+body.dark .form-control, body.dark .form-select { 
+  background-color: black; 
+  color: white;
+  border-color: peru; }
+
+body.dark .btn-outline-brown {
+ color: wheat; 
+ border-color: wheat; }
+
+body.dark .btn-outline-brown:hover { 
+  background-color: wheat; 
+  color: saddlebrown; }
+
+
+@media (max-width: 768px) {
+  .navbar-brand { font-size: 1.7rem; }
+  .hero-banner { min-height: 380px; }
+  .hero-box { padding: 1.2rem; }
+  .page-buttons { flex-direction: column; gap: 0.8rem; }
+}
